@@ -1,6 +1,14 @@
 # base image
 FROM python:3.7.3-alpine
 
+# new
+# install dependencies
+RUN apk update && \
+    apk add --virtual build-deps gcc python3-dev musl-dev && \
+    apk add postgresql-dev && \
+    apk add netcat-openbsd && \
+    apk add --update bash
+
 # set working directory
 WORKDIR /usr/src/app
 
@@ -8,8 +16,15 @@ WORKDIR /usr/src/app
 COPY ./requirements.txt /usr/src/app/requirements.txt
 RUN pip install -r requirements.txt
 
+# new
+# add entrypoint.sh
+COPY ./entrypoint.sh /usr/src/app/entrypoint.sh
+RUN chmod +x /usr/src/app/entrypoint.sh
+
 # add app
 COPY . /usr/src/app
 
+# new
 # run server
-CMD python manage.py run -h 0.0.0.0
+ENTRYPOINT ["/bin/sh", "/usr/src/app/entrypoint.sh"]
+CMD ["/usr/src/app/entrypoint.sh"]
