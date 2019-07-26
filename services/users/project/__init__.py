@@ -17,6 +17,6 @@ class UsersPing(Resource):
         'status': 'success',
         'message': 'pong!'
     }
-
+    
 
 api.add_resource(UsersPing, '/users/ping')
