@@ -2,6 +2,7 @@
 FROM python:3.7.3-alpine
 
 # set working directory
+RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 # add and install requirements
