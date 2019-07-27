@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47913300-a3a2-4303-a38a-e104a8c2bc59" name="Default Changelist" comment="Test Setup">
-      <change afterPath="$PROJECT_DIR$/project/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/api/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/api/users.py" afterDir="false" />
+    <list default="true" id="47913300-a3a2-4303-a38a-e104a8c2bc59" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/tests/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tests/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/tests/test_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tests/test_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/api/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/api/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/db/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/project/db/create.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/tests/test_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tests/test_users.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,11 +39,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="ProjectId" id="1OZrxgnsgddiACNpWheEmQx5QRp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
@@ -89,6 +88,8 @@
       <updated>1563950664808</updated>
       <workItem from="1563950670998" duration="1527000" />
       <workItem from="1563958912693" duration="3194000" />
+      <workItem from="1564196239200" duration="1259000" />
+      <workItem from="1564210774235" duration="4474000" />
     </task>
     <task id="LOCAL-00001" summary="Attempt to fix the bug">
       <created>1564111613029</created>
@@ -132,17 +133,45 @@
       <option name="project" value="LOCAL" />
       <updated>1564133318093</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Setting up Flask Blueprints">
+      <created>1564152624179</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1564152624179</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Setting up Flask Blueprints">
+      <created>1564152645444</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1564152645444</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Attempt to fix the bug" />
     <MESSAGE value="Working now, the users docker, had to change the root directory in the docker-machine" />
     <MESSAGE value="Postgres set up, remember to use the LF EOL in IDE" />
     <MESSAGE value="Test Setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Setup" />
+    <MESSAGE value="Setting up Flask Blueprints" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setting up Flask Blueprints" />
   </component>
 </project>
