@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47913300-a3a2-4303-a38a-e104a8c2bc59" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../docker-compose-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrypoint-prod.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/api/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/api/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/api/users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/db/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/project/db/create.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/tests/test_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tests/test_users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
@@ -65,6 +65,16 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Dockerfile-prod" type="docker-deploy" factoryName="dockerfile">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
@@ -89,7 +99,9 @@
       <workItem from="1563950670998" duration="1527000" />
       <workItem from="1563958912693" duration="3194000" />
       <workItem from="1564196239200" duration="1259000" />
-      <workItem from="1564210774235" duration="4474000" />
+      <workItem from="1564210774235" duration="4606000" />
+      <workItem from="1564234755610" duration="1213000" />
+      <workItem from="1564251910037" duration="636000" />
     </task>
     <task id="LOCAL-00001" summary="Attempt to fix the bug">
       <created>1564111613029</created>
@@ -147,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564152645444</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="REST Routes init">
+      <created>1564219275762</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1564219275762</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +191,7 @@
     <MESSAGE value="Postgres set up, remember to use the LF EOL in IDE" />
     <MESSAGE value="Test Setup" />
     <MESSAGE value="Setting up Flask Blueprints" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting up Flask Blueprints" />
+    <MESSAGE value="REST Routes init" />
+    <option name="LAST_COMMIT_MESSAGE" value="REST Routes init" />
   </component>
 </project>
