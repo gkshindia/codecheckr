@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47913300-a3a2-4303-a38a-e104a8c2bc59" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/api/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/api/users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/tests/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tests/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/tests/test_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tests/test_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/tests/test_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tests/test_users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +99,7 @@
       <workItem from="1564210774235" duration="4606000" />
       <workItem from="1564234755610" duration="1213000" />
       <workItem from="1564251910037" duration="636000" />
-      <workItem from="1564283640673" duration="5696000" />
+      <workItem from="1564283640673" duration="6299000" />
     </task>
     <task id="LOCAL-00001" summary="Attempt to fix the bug">
       <created>1564111613029</created>
@@ -179,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564292061089</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Coverage implementation">
+      <created>1564293641432</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1564293641432</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +205,7 @@
     <MESSAGE value="Setting up Flask Blueprints" />
     <MESSAGE value="REST Routes init" />
     <MESSAGE value="Jinja Template  implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jinja Template  implementation" />
+    <MESSAGE value="Coverage implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Coverage implementation" />
   </component>
 </project>
