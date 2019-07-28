@@ -28,7 +28,7 @@ class TestUserService(BaseTestCase):
         with self.client:
             response = self.client.post(
                 '/users',
-                data = json.dumps({
+                data=json.dumps({
                     'username': 'gourav',
                     'email': 'gik@geek.com'
                 }),
@@ -44,8 +44,8 @@ class TestUserService(BaseTestCase):
         with self.client:
             response = self.client.post(
                 '/users',
-                data = json.dumps({}),
-                content_type = 'application/json',
+                data=json.dumps({}),
+                content_type='application/json',
             )
             data = json.loads(response.data.decode())
             self.assertEqual(response.status_code, 400)
@@ -57,8 +57,8 @@ class TestUserService(BaseTestCase):
         with self.client:
             response = self.client.post(
                 '/users',
-                data = json.dumps({'email': 'gik@geek.com'}),
-                content_type = 'application/json',
+                data=json.dumps({'email': 'gik@geek.com'}),
+                content_type='application/json',
             )
             data = json.loads(response.data.decode())
             self.assertEqual(response.status_code, 400)
@@ -70,11 +70,11 @@ class TestUserService(BaseTestCase):
         with self.client:
             self.client.post(
                 '/users',
-                data = json.dumps({
+                data=json.dumps({
                     'username': 'michael',
                     'email': 'michael@mherman.org'
                 }),
-                content_type = 'application/json',
+                content_type='application/json',
             )
             response = self.client.post(
                 '/users',
@@ -93,7 +93,7 @@ class TestUserService(BaseTestCase):
         """Ensure get single user behaves correctly."""
         user = add_user('gourav', 'gik@geek.com')
         with self.client:
-            response =  self.client.get(f'/users/{user.id}')
+            response = self.client.get(f'/users/{user.id}')
             data = json.loads(response.data.decode())
             self.assertEqual(response.status_code, 200)
             self.assertIn('gourav', data['data']['username'])
@@ -101,9 +101,7 @@ class TestUserService(BaseTestCase):
             self.assertIn('success', data['status'])
 
     """def test_single_user_no_id(self):
-        """
          #Ensure error is thrown if an id is not provided.
-    """
         with self.client:
             response = self.client.get('/users/blah')
             # TODO: need to check whether the id is integer or not in the views
@@ -165,7 +163,7 @@ class TestUserService(BaseTestCase):
         with self.client:
             response = self.client.post(
                 '/',
-                data = dict(username='michael', email='michael@sonotreal.com'),
+                data=dict(username='michael', email='michael@sonotreal.com'),
                 follow_redirects=True
             )
             self.assertEqual(response.status_code, 200)

@@ -19,6 +19,7 @@ def index():
     users = User.query.all()
     return render_template('index.html', users=users)
 
+
 class UsersPing(Resource):
 
     def get(self):
