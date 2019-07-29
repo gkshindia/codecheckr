@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47913300-a3a2-4303-a38a-e104a8c2bc59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="47913300-a3a2-4303-a38a-e104a8c2bc59" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +97,7 @@
       <workItem from="1564210774235" duration="4606000" />
       <workItem from="1564234755610" duration="1213000" />
       <workItem from="1564251910037" duration="636000" />
-      <workItem from="1564283640673" duration="6909000" />
+      <workItem from="1564283640673" duration="6957000" />
     </task>
     <task id="LOCAL-00001" summary="Attempt to fix the bug">
       <created>1564111613029</created>
