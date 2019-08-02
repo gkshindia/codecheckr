@@ -9,3 +9,5 @@ $ docker-compose -f docker-compose.yml exec users python manage.py seed_db
 $ docker-compose -f docker-compose.yml exec users python manage.py test
 
 $ export REACT_APP_USERS_SERVICE_URL=http://192.168.99.100
+
+$ docker-compose exec client npm test
