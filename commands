@@ -4,6 +4,8 @@ $ docker-compose -f docker-compose.yml up -d --build
 
 $ docker-compose -f docker-compose.yml exec users python manage.py recreate_db
 
+$ docker-compose exec users-db psql -U postgres
+
 $ docker-compose -f docker-compose.yml exec users python manage.py seed_db
 
 $ docker-compose -f docker-compose.yml exec users python manage.py test
@@ -11,3 +13,9 @@ $ docker-compose -f docker-compose.yml exec users python manage.py test
 $ export REACT_APP_USERS_SERVICE_URL=http://192.168.99.100
 
 $ docker-compose exec client npm test
+
+$ docker-compose exec users python manage.py db init
+
+$ docker-compose exec users python manage.py db migrate
+
+$ docker-compose exec users python manage.py db upgrade

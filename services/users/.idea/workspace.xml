@@ -2,186 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47913300-a3a2-4303-a38a-e104a8c2bc59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../client/src/components/__tests__/__snapshots__/AddUser.test.jsx.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/alembic.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/script.py.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/versions/d5f95b9f26ee_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/tests/test_user_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/tests/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Migrate-2.5.2.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Migrate-2.5.2.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Migrate-2.5.2.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Migrate-2.5.2.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Migrate-2.5.2.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Migrate-2.5.2.dist-info/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Migrate-2.5.2.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Mako-1.1.0-py3.7.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Mako-1.1.0-py3.7.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Mako-1.1.0-py3.7.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Mako-1.1.0-py3.7.egg-info/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Mako-1.1.0-py3.7.egg-info/installed-files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Mako-1.1.0-py3.7.egg-info/not-zip-safe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Mako-1.1.0-py3.7.egg-info/requires.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Mako-1.1.0-py3.7.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic-1.0.11-py3.7.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic-1.0.11-py3.7.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic-1.0.11-py3.7.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic-1.0.11-py3.7.egg-info/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic-1.0.11-py3.7.egg-info/installed-files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic-1.0.11-py3.7.egg-info/not-zip-safe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic-1.0.11-py3.7.egg-info/requires.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic-1.0.11-py3.7.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/autogenerate/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/autogenerate/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/autogenerate/compare.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/autogenerate/render.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/autogenerate/rewriter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/command.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/context.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/ddl/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/ddl/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/ddl/impl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/ddl/mssql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/ddl/mysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/ddl/oracle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/ddl/postgresql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/ddl/sqlite.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/op.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/operations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/operations/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/operations/batch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/operations/ops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/operations/schemaobj.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/operations/toimpl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/runtime/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/runtime/environment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/runtime/migration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/script/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/script/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/script/revision.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/generic/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/generic/alembic.ini.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/generic/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/generic/script.py.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/multidb/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/multidb/alembic.ini.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/multidb/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/multidb/script.py.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/pylons/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/pylons/alembic.ini.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/pylons/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/pylons/script.py.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/assertions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/engines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/exclusions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/fixtures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/mock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/plugin/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/plugin/bootstrap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/plugin/noseplugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/plugin/plugin_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/plugin/pytestplugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/provision.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/requirements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/runner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/warnings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/util/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/util/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/util/exc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/util/langhelpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/util/messaging.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/util/pyfiles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/util/sqla_compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/_common.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/_version.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/easter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/parser/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/parser/_parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/parser/isoparser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/relativedelta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/rrule.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/tz/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/tz/_common.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/tz/_factories.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/tz/tz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/tz/win.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/tzwin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/zoneinfo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/zoneinfo/rebuild.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/editor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_migrate/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_migrate/cli.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_migrate/templates/flask-multidb/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_migrate/templates/flask-multidb/alembic.ini.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_migrate/templates/flask-multidb/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_migrate/templates/flask-multidb/script.py.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_migrate/templates/flask/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_migrate/templates/flask/alembic.ini.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_migrate/templates/flask/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_migrate/templates/flask/script.py.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/_ast_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/ast.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/cmd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/codegen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/ext/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/ext/autohandler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/ext/babelplugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/ext/beaker_cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/ext/extract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/ext/linguaplugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/ext/preprocessors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/ext/pygmentplugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/ext/turbogears.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/filters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/lexer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/lookup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/parsetree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/pygen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/pyparser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/runtime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/template.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_dateutil-2.8.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_dateutil-2.8.0.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_dateutil-2.8.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_dateutil-2.8.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_dateutil-2.8.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_dateutil-2.8.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_dateutil-2.8.0.dist-info/zip-safe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_editor-1.0.4.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_editor-1.0.4.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_editor-1.0.4.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_editor-1.0.4.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_editor-1.0.4.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_editor-1.0.4.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_editor-1.0.4.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/alembic-script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/alembic.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/alembic.exe.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/mako-render-script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/mako-render.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/mako-render.exe.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Bcrypt-0.7.1-py3.7.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Bcrypt-0.7.1-py3.7.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Bcrypt-0.7.1-py3.7.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Bcrypt-0.7.1-py3.7.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Bcrypt-0.7.1-py3.7.egg-info/not-zip-safe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Bcrypt-0.7.1-py3.7.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Bcrypt-0.7.1-py3.7.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Bcrypt-0.7.1-py3.7.egg-info/version_info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/_cffi_backend.cp37-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bcrypt-3.1.7.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bcrypt-3.1.7.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bcrypt-3.1.7.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bcrypt-3.1.7.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bcrypt-3.1.7.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bcrypt-3.1.7.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bcrypt/__about__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bcrypt/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bcrypt/_bcrypt.cp37-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi-1.12.3.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi-1.12.3.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi-1.12.3.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi-1.12.3.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi-1.12.3.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi-1.12.3.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi-1.12.3.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/_cffi_errors.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/_cffi_include.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/_embedding.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/backend_ctypes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/cffi_opcode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/commontypes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/cparser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/ffiplatform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/lock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/parse_c_type.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/pkgconfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/recompiler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/setuptools_ext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/vengine_cpy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/vengine_gen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/verifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_bcrypt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pycparser-2.19-py3.7.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pycparser-2.19-py3.7.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pycparser-2.19-py3.7.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pycparser-2.19-py3.7.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pycparser-2.19-py3.7.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pycparser/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pycparser/_ast_gen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pycparser/_build_tables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pycparser/_c_ast.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pycparser/ast_transforms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pycparser/c_ast.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pycparser/c_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pycparser/c_lexer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pycparser/c_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pycparser/lextab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pycparser/ply/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pycparser/ply/cpp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pycparser/ply/ctokens.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pycparser/ply/lex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pycparser/ply/yacc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pycparser/ply/ygen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pycparser/plyparser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pycparser/yacctab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commands" beforeDir="false" afterPath="$PROJECT_DIR$/../../commands" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/d5f95b9f26ee_.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/api/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/api/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/tests/test_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tests/test_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/tests/test_user_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tests/test_user_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/tests/test_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tests/test_users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/tests/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tests/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -277,7 +178,7 @@
       <workItem from="1564380494278" duration="79000" />
       <workItem from="1564597767146" duration="832000" />
       <workItem from="1564635553943" duration="336000" />
-      <workItem from="1564757267085" duration="2450000" />
+      <workItem from="1564757267085" duration="6148000" />
     </task>
     <task id="LOCAL-00001" summary="Attempt to fix the bug">
       <created>1564111613029</created>
@@ -370,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564757326174</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Flask migrate">
+      <created>1564760632387</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1564760632387</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,6 +309,7 @@
     <MESSAGE value="Coverage implementation" />
     <MESSAGE value="Flask debug tool bar implementation" />
     <MESSAGE value="React Docker Setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="React Docker Setup" />
+    <MESSAGE value="Flask migrate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flask migrate" />
   </component>
 </project>
