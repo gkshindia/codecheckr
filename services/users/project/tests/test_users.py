@@ -116,8 +116,8 @@ class TestUserService(BaseTestCase):
 
     def test_all_users(self):
         """Ensure get all users behaves correctly."""
-        add_user('michael', 'michael@mherman.org')
-        add_user('fletcher', 'fletcher@notreal.com')
+        add_user('michael', 'michael@mherman.org', 'greaterthaneight')
+        add_user('fletcher', 'fletcher@notreal.com', 'greaterthaneight')
         with self.client:
             response = self.client.get('/users')
             data = json.loads(response.data.decode())
