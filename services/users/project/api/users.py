@@ -34,6 +34,7 @@ class UsersPing(Resource):
 
 
 class Users(Resource):
+
     def get(self, user_id):
         """Get single user details"""
         response_object = {
