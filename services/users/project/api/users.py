@@ -3,6 +3,7 @@ from flask_restful import Resource, Api
 from project import db
 from project.api.models import User
 from sqlalchemy import exc
+import json
 
 
 users_blueprint = Blueprint('users', __name__, template_folder='./templates')
@@ -35,12 +36,10 @@ class UsersPing(Resource):
 class Users(Resource):
     def get(self, user_id):
         """Get single user details"""
-        """Get single user details"""
         response_object = {
             'status': 'fail',
             'message': 'User does not exist'
         }
-        user = User.query.filter_by(id=user_id).first()
         try:
             user = User.query.filter_by(id=int(user_id)).first()
             # TODO: need to check whether the id is integer or not in the views considering the test case
@@ -90,7 +89,7 @@ class UsersList(Resource):
             return response_object, 400
         except (exc.IntegrityError, ValueError):
             db.session.rollback()
-            return jsonify(response_object), 400
+            return response_object, 400
 
     def get(self):
         """"Get all Users"""
