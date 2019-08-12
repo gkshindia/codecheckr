@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47913300-a3a2-4303-a38a-e104a8c2bc59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../client/src/components/Form.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/components/NavBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/components/__tests__/Form.test.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/components/__tests__/NavBar.test.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/components/__tests__/__snapshots__/NavBar.test.jsx.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../commands" beforeDir="false" afterPath="$PROJECT_DIR$/../../commands" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/Logout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/__tests__/Logout.test.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/Form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nginx/dev.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx/dev.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nginx/prod.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx/prod.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,7 +118,7 @@
       <workItem from="1565418300561" duration="2771000" />
       <workItem from="1565448330421" duration="1262000" />
       <workItem from="1565509848009" duration="1434000" />
-      <workItem from="1565579118710" duration="607000" />
+      <workItem from="1565579118710" duration="1817000" />
     </task>
     <task id="LOCAL-00001" summary="Attempt to fix the bug">
       <created>1564111613029</created>
