@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47913300-a3a2-4303-a38a-e104a8c2bc59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../client/src/components/Logout.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/components/__tests__/Logout.test.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/components/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/Form.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nginx/dev.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx/dev.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nginx/prod.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx/prod.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/__tests__/Form.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/__tests__/Form.test.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/__tests__/__snapshots__/Form.test.jsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/__tests__/__snapshots__/Form.test.jsx.snap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
