@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47913300-a3a2-4303-a38a-e104a8c2bc59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/migrations/versions/10524ee73214_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/versions/e5a7318a9b83_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/api/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/api/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/api/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/api/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/api/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/api/users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/tests/test_auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tests/test_auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/tests/test_user_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tests/test_user_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/tests/test_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tests/test_users.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,7 +113,7 @@
       <workItem from="1565418300561" duration="2771000" />
       <workItem from="1565448330421" duration="1262000" />
       <workItem from="1565509848009" duration="1434000" />
-      <workItem from="1565579118710" duration="5094000" />
+      <workItem from="1565579118710" duration="5235000" />
     </task>
     <task id="LOCAL-00001" summary="Attempt to fix the bug">
       <created>1564111613029</created>
@@ -242,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565081340380</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added Admin, Authorization and Authentication">
+      <created>1565600980286</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1565600980287</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +276,7 @@
     <MESSAGE value="Flask BCrypt - password hashing" />
     <MESSAGE value="Fixed the test case errors and failures" />
     <MESSAGE value="Auth Routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Auth Routes" />
+    <MESSAGE value="Added Admin, Authorization and Authentication" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Admin, Authorization and Authentication" />
   </component>
 </project>
