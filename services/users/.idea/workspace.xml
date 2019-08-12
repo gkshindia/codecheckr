@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47913300-a3a2-4303-a38a-e104a8c2bc59" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../commands" beforeDir="false" afterPath="$PROJECT_DIR$/../../commands" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docker-compose-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../docker-compose-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/UserStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/UserStatus.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/UsersList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/UsersList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/__tests__/UsersList.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/__tests__/UsersList.test.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/__tests__/__snapshots__/UsersList.test.jsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/__tests__/__snapshots__/UsersList.test.jsx.snap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/tests/test_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tests/test_users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile-prod" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile-prod" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +120,7 @@
       <workItem from="1565418300561" duration="2771000" />
       <workItem from="1565448330421" duration="1262000" />
       <workItem from="1565509848009" duration="1434000" />
-      <workItem from="1565579118710" duration="5235000" />
+      <workItem from="1565579118710" duration="6193000" />
     </task>
     <task id="LOCAL-00001" summary="Attempt to fix the bug">
       <created>1564111613029</created>
@@ -241,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565600980287</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added Admin, Authorization and Authentication">
+      <created>1565601100124</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1565601100124</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

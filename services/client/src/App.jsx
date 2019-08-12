@@ -6,10 +6,7 @@ import NavBar from './components/NavBar';
 import Form from './components/Form';
 import Logout from "./components/Logout";
 import UserStatus from "./components/UserStatus";
-// eslint-disable-next-line
 import UsersList from './components/UsersList';
-// eslint-disable-next-line
-import AddUser from './components/AddUser';
 
 
 class App extends Component {
@@ -107,6 +104,11 @@ class App extends Component {
             <div className="column is-half">
               <br/>
               <Switch>
+                <Route exact path='/' render={() => (
+                  <UsersList
+                    users={this.state.users}
+                  />
+                )} />
                 <Route exact path='/register' render={() => (
                   <Form
                     formType={'Register'}
