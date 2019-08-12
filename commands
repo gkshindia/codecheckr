@@ -19,3 +19,5 @@ $ docker-compose exec users python manage.py db init
 $ docker-compose exec users python manage.py db migrate
 
 $ docker-compose exec users python manage.py db upgrade
+
+$ docker-compose exec users python manage.py cov

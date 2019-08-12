@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47913300-a3a2-4303-a38a-e104a8c2bc59" name="Default Changelist" comment="" />
+    <list default="true" id="47913300-a3a2-4303-a38a-e104a8c2bc59" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../client/src/components/Form.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/NavBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/__tests__/Form.test.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/__tests__/NavBar.test.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/__tests__/__snapshots__/NavBar.test.jsx.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commands" beforeDir="false" afterPath="$PROJECT_DIR$/../../commands" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +52,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../client" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="terminal" />
@@ -98,6 +110,16 @@
       <workItem from="1564757267085" duration="6180000" />
       <workItem from="1564817934152" duration="615000" />
       <workItem from="1564845819852" duration="2236000" />
+      <workItem from="1565157508146" duration="555000" />
+      <workItem from="1565160102948" duration="692000" />
+      <workItem from="1565244446912" duration="1563000" />
+      <workItem from="1565270791453" duration="2750000" />
+      <workItem from="1565321699297" duration="18000" />
+      <workItem from="1565416936471" duration="812000" />
+      <workItem from="1565418300561" duration="2771000" />
+      <workItem from="1565448330421" duration="1262000" />
+      <workItem from="1565509848009" duration="1434000" />
+      <workItem from="1565579118710" duration="607000" />
     </task>
     <task id="LOCAL-00001" summary="Attempt to fix the bug">
       <created>1564111613029</created>
