@@ -5,6 +5,7 @@ import About from './components/About';
 import NavBar from './components/NavBar';
 import Form from './components/Form';
 import Logout from "./components/Logout";
+import UserStatus from "./components/UserStatus";
 // eslint-disable-next-line
 import UsersList from './components/UsersList';
 // eslint-disable-next-line
@@ -97,7 +98,9 @@ class App extends Component {
   render() {
   return (
     <div>
-      <NavBar title={this.state.title} />
+      <NavBar title={this.state.title}
+              isAuthenticated={this.state.isAuthenticated}
+      />
       <section className="section">
         <div className="container">
           <div className="columns">
@@ -129,6 +132,11 @@ class App extends Component {
                   />
                 )} />
                 <Route exact path='/about' component={About}/>
+                <Route exact path='/status' render={() => (
+                    <UserStatus
+                        isAuthenticated={this.state.isAuthenticated}
+                    />
+                )} />
               </Switch>
             </div>
           </div>
