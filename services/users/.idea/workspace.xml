@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47913300-a3a2-4303-a38a-e104a8c2bc59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../client/src/components/UserStatus.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/components/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/components/__tests__/__snapshots__/NavBar.test.jsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/__tests__/__snapshots__/NavBar.test.jsx.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/versions/10524ee73214_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/versions/e5a7318a9b83_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/api/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/api/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/api/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/api/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/api/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/tests/test_auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tests/test_auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/tests/test_user_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tests/test_user_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/tests/test_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tests/test_users.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +121,7 @@
       <workItem from="1565418300561" duration="2771000" />
       <workItem from="1565448330421" duration="1262000" />
       <workItem from="1565509848009" duration="1434000" />
-      <workItem from="1565579118710" duration="1817000" />
+      <workItem from="1565579118710" duration="5094000" />
     </task>
     <task id="LOCAL-00001" summary="Attempt to fix the bug">
       <created>1564111613029</created>

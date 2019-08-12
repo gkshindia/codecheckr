@@ -3,12 +3,22 @@ from flask_restful import Resource, Api
 from project import db
 from project.api.models import User
 from sqlalchemy import exc
+from project.api.utils import authenticate_restful, is_admin
 import json
 
 
 users_blueprint = Blueprint('users', __name__, template_folder='./templates')
 api = Api(users_blueprint)
 
+
+def add_admin(username, email, password):
+    user = User(
+      username=username, email=email,
+      password=password, admin=True
+    )
+    db.session.add(user)
+    db.session.commit()
+    return user
 
 @users_blueprint.route('/', methods=['GET', 'POST'])
 def index():
@@ -63,12 +73,17 @@ class Users(Resource):
 
 class UsersList(Resource):
 
-    def post(self):
+    method_decorators = {'post': [authenticate_restful]}
+
+    def post(self, resp):
         post_data = request.get_json()
         response_object = {
             'status': 'fail',
             'message': 'Invalid payload.'
         }
+        if not is_admin(resp):
+            response_object['message'] = 'You do not have permission to do that.'
+            return response_object, 401
         if not post_data:
             return response_object, 400
         username = post_data.get('username')
@@ -77,13 +92,16 @@ class UsersList(Resource):
         try:
             user = User.query.filter_by(email=email).first()
             if not user:
-                db.session.add(User(username=username, email=email, password=password))
+                db.session.add(User(
+                    username=username, email=email, password=password)
+                )
                 db.session.commit()
                 response_object['status'] = 'success'
                 response_object['message'] = f'{email} was added!'
                 return response_object, 201
             else:
-                response_object['message'] = 'Sorry. That email already exists.'
+                response_object['message'] = \
+                    'Sorry. That email already exists.'
                 return response_object, 400
         except exc.IntegrityError:
             db.session.rollback()
