@@ -2,18 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47913300-a3a2-4303-a38a-e104a8c2bc59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../cypress.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cypress/fixtures/example.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cypress/integration/index.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cypress/plugins/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cypress/support/commands.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cypress/support/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../test.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nginx/dev.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx/dev.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nginx/prod.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx/prod.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cypress/integration/login.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cypress/integration/register.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cypress/integration/status.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cypress/screenshots/login.spec.js/Login -- should allow a user to sign in (failed).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cypress/screenshots/status.spec.js/An uncaught error was detected outside of a test (failed).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commands" beforeDir="false" afterPath="$PROJECT_DIR$/../../commands" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cypress.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../cypress.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cypress/integration/index.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../cypress/integration/index.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/__tests__/App.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/__tests__/App.test.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../test.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +126,7 @@
       <workItem from="1565448330421" duration="1262000" />
       <workItem from="1565509848009" duration="1434000" />
       <workItem from="1565579118710" duration="6193000" />
-      <workItem from="1565672719848" duration="2133000" />
+      <workItem from="1565672719848" duration="3411000" />
     </task>
     <task id="LOCAL-00001" summary="Attempt to fix the bug">
       <created>1564111613029</created>

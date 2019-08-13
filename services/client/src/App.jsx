@@ -89,9 +89,14 @@ class App extends Component {
     });
   };
   logoutUser() {
-  window.localStorage.clear();
-  this.setState({ isAuthenticated: false });
-};
+    window.localStorage.clear();
+    this.setState({ isAuthenticated: false });
+  };
+  componentWillMount() {
+    if (window.localStorage.getItem('authToken')) {
+      this.setState({ isAuthenticated: true });
+    };
+  };
   render() {
   return (
     <div>

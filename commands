@@ -23,3 +23,5 @@ $ docker-compose exec users python manage.py db migrate
 $ docker-compose exec users python manage.py db upgrade
 
 $ docker-compose exec users python manage.py cov
+
+$ ./node_modules/.bin/cypress open --config baseUrl=http://192.168.99.100

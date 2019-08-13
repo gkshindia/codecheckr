@@ -18,10 +18,9 @@ docker-compose down
 
 # new
 # run e2e tests
-docker-machine env codecheckr-prod
 docker-compose -f docker-compose-prod.yml up -d --build
 docker-compose -f docker-compose-prod.yml exec users python manage.py recreate_db
-./node_modules/.bin/cypress run --config baseUrl=http://54.196.163.157
+./node_modules/.bin/cypress run --config baseUrl=http://192.168.99.100
 inspect $? e2e
 docker-compose -f docker-compose-prod.yml down
 
