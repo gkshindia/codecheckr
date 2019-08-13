@@ -1,0 +1,6 @@
+{
+  "name": "code-checkr",
+  "devDependencies": {
+    "cypress": "^3.2.0"
+  }
+}

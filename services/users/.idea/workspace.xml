@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47913300-a3a2-4303-a38a-e104a8c2bc59" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../cypress.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cypress/fixtures/example.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cypress/integration/index.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cypress/plugins/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cypress/support/commands.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cypress/support/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nginx/dev.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx/dev.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nginx/prod.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx/prod.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/api/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/api/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/api/users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/api/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/api/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/tests/test_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tests/test_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/tests/test_user_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tests/test_user_model.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +124,7 @@
       <workItem from="1565448330421" duration="1262000" />
       <workItem from="1565509848009" duration="1434000" />
       <workItem from="1565579118710" duration="6193000" />
-      <workItem from="1565672719848" duration="1504000" />
+      <workItem from="1565672719848" duration="2133000" />
     </task>
     <task id="LOCAL-00001" summary="Attempt to fix the bug">
       <created>1564111613029</created>
@@ -253,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565601100124</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Pythonifying as flake8">
+      <created>1565674246654</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1565674246654</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +302,7 @@
     <MESSAGE value="Fixed the test case errors and failures" />
     <MESSAGE value="Auth Routes" />
     <MESSAGE value="Added Admin, Authorization and Authentication" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Admin, Authorization and Authentication" />
+    <MESSAGE value="Pythonifying as flake8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pythonifying as flake8" />
   </component>
 </project>
