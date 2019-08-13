@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="47913300-a3a2-4303-a38a-e104a8c2bc59" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/api/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/api/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/api/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/api/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/tests/test_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tests/test_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/tests/test_user_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/tests/test_user_model.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,6 +118,7 @@
       <workItem from="1565448330421" duration="1262000" />
       <workItem from="1565509848009" duration="1434000" />
       <workItem from="1565579118710" duration="6193000" />
+      <workItem from="1565672719848" duration="1504000" />
     </task>
     <task id="LOCAL-00001" summary="Attempt to fix the bug">
       <created>1564111613029</created>

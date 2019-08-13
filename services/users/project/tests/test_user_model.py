@@ -34,7 +34,7 @@ class TestUserModel(BaseTestCase):
         duplicate_user = User(
             username='justatest2',
             email='test@test.com',
-            password= 'greaterthaneight',
+            password='greaterthaneight',
         )
         db.session.add(duplicate_user)
         self.assertRaises(IntegrityError, db.session.commit)

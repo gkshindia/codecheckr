@@ -1,10 +1,9 @@
-from flask import Blueprint, request, render_template, jsonify
+from flask import Blueprint, request, render_template
 from flask_restful import Resource, Api
 from project import db
 from project.api.models import User
 from sqlalchemy import exc
 from project.api.utils import authenticate_restful, is_admin
-import json
 
 
 users_blueprint = Blueprint('users', __name__, template_folder='./templates')
@@ -19,6 +18,7 @@ def add_admin(username, email, password):
     db.session.add(user)
     db.session.commit()
     return user
+
 
 @users_blueprint.route('/', methods=['GET', 'POST'])
 def index():
@@ -53,7 +53,8 @@ class Users(Resource):
         }
         try:
             user = User.query.filter_by(id=int(user_id)).first()
-            # TODO: need to check whether the id is integer or not in the views considering the test case
+            # TODO: need to check whether the id is integer or
+            #  not in the views considering the test case
             if not user:
                 return response_object, 404
             else:
@@ -82,7 +83,8 @@ class UsersList(Resource):
             'message': 'Invalid payload.'
         }
         if not is_admin(resp):
-            response_object['message'] = 'You do not have permission to do that.'
+            response_object['message'] = \
+                'You do not have permission to do that.'
             return response_object, 401
         if not post_data:
             return response_object, 400
