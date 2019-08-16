@@ -1,3 +1,5 @@
+#!/bin/sh
+
 type=$1
 fails=""
 
