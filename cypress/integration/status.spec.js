@@ -13,7 +13,8 @@ describe('Status', () => {
       .get('a').contains('User Status').should('not.be.visible')
       .get('a').contains('Log Out').should('not.be.visible')
       .get('a').contains('Register')
-      .get('a').contains('Log In');
+      .get('a').contains('Log In')
+      .get('.notification.is-success').should('not.be.visible');
   });
 
   it('should display user info if a user is logged in', () => {

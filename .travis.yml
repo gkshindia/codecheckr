@@ -18,6 +18,3 @@ before_script:
 
 script:
   - bash test.sh stage
-
-after_script:
-  - docker-compose down

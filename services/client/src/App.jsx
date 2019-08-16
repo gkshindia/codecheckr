@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import axios from 'axios';
-
+import Message from "./components/Message";
 import UsersList from './components/UsersList';
 import About from './components/About';
 import NavBar from './components/NavBar';
-import Form from './components/Form';
+import Form from './components/forms/Form';
 import Logout from './components/Logout';
 import UserStatus from './components/UserStatus';
 
@@ -15,11 +15,15 @@ class App extends Component {
     super();
     this.state = {
       users: [],
-      title: 'TestDriven.io',
+      title: 'codecheckr.io',
       isAuthenticated: false,
+      messageName: null,
+      messageType: null
     };
     this.logoutUser = this.logoutUser.bind(this);
     this.loginUser = this.loginUser.bind(this);
+    this.createMessage = this.createMessage.bind(this);
+    this.removeMessage = this.removeMessage.bind(this);
   };
   componentWillMount() {
     if (window.localStorage.getItem('authToken')) {
@@ -28,6 +32,12 @@ class App extends Component {
   };
   componentDidMount() {
     this.getUsers();
+  };
+  removeMessage() {
+    this.setState({
+      messageName: null,
+      messageType: null
+    });
   };
   getUsers() {
     axios.get(`${process.env.REACT_APP_USERS_SERVICE_URL}/users`)
@@ -42,6 +52,16 @@ class App extends Component {
     window.localStorage.setItem('authToken', token);
     this.setState({ isAuthenticated: true });
     this.getUsers();
+    this.createMessage('Welcome!', 'success');
+  };
+  createMessage(name='Sanity Check', type='success') {
+    this.setState({
+      messageName: name,
+      messageType: type
+    });
+    setTimeout(() => {
+      this.removeMessage();
+    }, 3000);
   };
   render() {
     return (
@@ -52,6 +72,13 @@ class App extends Component {
         />
         <section className="section">
           <div className="container">
+            {this.state.messageName && this.state.messageType &&
+              <Message
+                messageName={this.state.messageName}
+                messageType={this.state.messageType}
+                removeMessage={this.removeMessage}
+              />
+            }
             <div className="columns">
               <div className="column is-half">
                 <br/>
@@ -67,6 +94,7 @@ class App extends Component {
                       formType={'Register'}
                       isAuthenticated={this.state.isAuthenticated}
                       loginUser={this.loginUser}
+                      createMessage={this.createMessage}
                     />
                   )} />
                   <Route exact path='/login' render={() => (
@@ -74,6 +102,7 @@ class App extends Component {
                       formType={'Login'}
                       isAuthenticated={this.state.isAuthenticated}
                       loginUser={this.loginUser}
+                      createMessage={this.createMessage}
                     />
                   )} />
                   <Route exact path='/logout' render={() => (
