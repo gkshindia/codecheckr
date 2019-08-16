@@ -25,3 +25,5 @@ $ docker-compose exec users python manage.py db upgrade
 $ docker-compose exec users python manage.py cov
 
 $ ./node_modules/.bin/cypress open --config baseUrl=http://192.168.99.100
+
+$ python services/swagger/update-spec.py http://54.196.163.157
